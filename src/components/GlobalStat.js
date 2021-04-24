@@ -23,16 +23,22 @@ function GlobalStat() {
     const useStyles = makeStyles((theme) => ({
         root: {
             flexGrow: 2,
-            backgroundColor: '#6c7f92',
+            backgroundColor: 'rgba(0, 0, 0, 0.2)',
+            backgroundImage: `url(https://xvivo.com/app/uploads/2020/05/COVID19_1366x768.jpg)`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
 
         },
         paper: {
             padding: theme.spacing(2),
             textAlign: 'center',
-            backgroundColor: '#8b9aa2',
             color: "white",
             margin: 3,
             fontWeight: "normal",
+            backgroundImage: `url(https://xvivo.com/app/uploads/2020/05/COVID19_1366x768.jpg)`,
+
+            backgroundColor: 'rgba(0, 0, 0, 0.7)',
         },
         container: {
             display: "flex",
@@ -47,10 +53,10 @@ function GlobalStat() {
         <div>
 
             <div>
-                <Grid container spacing={3}>
+                <Grid container spacing={3} >
                     <Grid item xs={12}>
                         <Paper className={classes.paper}>
-                            <h3>Global Facts About Covid-19</h3>
+                            <h2>Global Facts About Covid-19</h2>
                         </Paper>
                     </Grid>
                 </Grid>
@@ -63,8 +69,8 @@ function GlobalStat() {
                                     <Grid item xs={12} sm={4}>
                                         <Paper key={index} className={classes.paper}>
                                             <div className={classes.container}>
-                                                <h3>{key}</h3>
-                                                <h3>{GlobalData[key]}</h3>
+                                                <h4>{key}</h4>
+                                                <h5>{GlobalData[key]}</h5>
                                             </div>
                                         </Paper>
                                     </Grid>

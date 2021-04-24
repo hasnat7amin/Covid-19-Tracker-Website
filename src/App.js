@@ -15,6 +15,7 @@ function App() {
     <Router>
       <div >
         <NavBar />
+        <img className="image" src="https://media.defense.gov/2020/Mar/09/2002267476/-1/-1/0/200309-D-HN545-003.JPG"></img>
         <SelectData />
         <Switch>
           <Route path="/country">

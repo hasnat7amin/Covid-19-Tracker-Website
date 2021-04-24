@@ -20,23 +20,32 @@ function GlobalStat() {
     const useStyles = makeStyles((theme) => ({
         root: {
             flexGrow: 2,
-            backgroundColor: '#6c7f92',
+            backgroundColor: 'rgba(0, 0, 0, 0.2)',
+            backgroundImage: `url(https://xvivo.com/app/uploads/2020/05/COVID19_1366x768.jpg)`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
 
+        },
+        paper1: {
+            padding: theme.spacing(2),
+            textAlign: 'center',
+            color: "white",
+            margin: 3,
+            fontWeight: "normal",
+            backgroundImage: `url(https://xvivo.com/app/uploads/2020/05/COVID19_1366x768.jpg)`,
+
+            backgroundColor: 'rgba(0, 0, 0, 0.1)',
         },
         paper: {
             padding: theme.spacing(2),
             textAlign: 'center',
-            backgroundColor: '#8b9aa2',
             color: "white",
             margin: 3,
             fontWeight: "normal",
-        },
-        paper1: {
-            padding: theme.spacing(2),
-            backgroundColor: '#8b9aa2',
-            color: "white",
-            margin: 3,
-            fontWeight: "normal",
+            backgroundImage: `url(https://xvivo.com/app/uploads/2020/05/COVID19_1366x768.jpg)`,
+
+            backgroundColor: 'rgba(0, 0, 0, 0.1)',
         },
         container: {
             display: "flex",

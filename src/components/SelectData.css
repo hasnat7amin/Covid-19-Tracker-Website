@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    background-color: #6c7f92;
+    background-color: black;
     align-items: center;
     justify-content: space-around;
     padding: 10px;
