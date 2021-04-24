@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    background-color: #6c7f92;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 18px;
+} 
+.box1{
+    padding: 10px 0px;
+}
+.link1{
+    color: white;
+    text-decoration: none;
+}
