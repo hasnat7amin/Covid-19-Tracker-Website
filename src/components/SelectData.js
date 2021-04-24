@@ -11,7 +11,7 @@ function SelectData() {
                 <Link to="/country" className="link1">Countries statistics</Link>
             </div>
             <div className="box1">
-                <Link to="/" className="link1">Global statistics</Link>
+                <Link to="/" className="link1">World statistics</Link>
             </div>
         </div>
     )
