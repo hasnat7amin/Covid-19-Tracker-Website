@@ -32,4 +32,4 @@ jobs:
         run: npm install -g surge
    
       - name: deploying on surge
-        run: surge ./build http://covid-19_trackerapp_by_hasnat.surge.sh/ --token 7c9c00522403005d97ff625f8b731b16
+        run: surge ./build --domain http://covid-19_trackerapp_by_hasnat.surge.sh 
