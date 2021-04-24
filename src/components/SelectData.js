@@ -8,10 +8,10 @@ function SelectData() {
     return (
         <div className="container">
             <div className="box1">
-                <Link to="/country" className="link1">Covid-19 Country wise statistics</Link>
+                <Link to="/country" className="link1">Countries statistics</Link>
             </div>
             <div className="box1">
-                <Link to="/" className="link1">Covid-19 Global statistics</Link>
+                <Link to="/" className="link1">Global statistics</Link>
             </div>
         </div>
     )

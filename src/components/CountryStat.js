@@ -92,7 +92,7 @@ function GlobalStat() {
                                             <div>
                                                 <div className={classes.container}>
                                                     <h3>{key.Country}</h3>
-                                                    <h5>Last Update:<span>{key.Date}</span></h5>
+                                                    <h6>Last Update:<span>{key.Date}</span></h6>
                                                 </div>
                                                 <div className={classes.container2}>
                                                     <p>Total Confirmed: <span className={classes.yellow}>{key.TotalConfirmed}</span></p>
